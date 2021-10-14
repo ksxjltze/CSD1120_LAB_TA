@@ -1,0 +1,15 @@
+This program evaluates mathematical expressions.
+Operation: 1
+	2.000000
+Operation: 2
+	1.000000
+Operation: 3
+	10.000000
+Operation: 4
+	5.000000
+Operation: 4
+	2.500000
+Operation: 6
+	1.000000
+Operation: 10
+	Unknown operation selected!Closing the program...
