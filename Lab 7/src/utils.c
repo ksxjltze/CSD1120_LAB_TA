@@ -43,6 +43,11 @@ void sort_3_numbers(int* first, int* second, int* third)
         swap(second, third);
     }
 
+    if (*first < *second)
+    {
+        swap(first, second);
+    }
+
 
 }
 
