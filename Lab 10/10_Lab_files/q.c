@@ -1,4 +1,3 @@
-#define USE_STRING
 #include "q.h"
 
 const char* build_path(

@@ -12,4 +12,4 @@ test: build
 	./a.out > my_output.txt
 
 build:
-	${CC} q.c main.c
+	${CC} q.c main.c my_string.c
