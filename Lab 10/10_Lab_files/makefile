@@ -11,5 +11,8 @@ diff: test
 test: build
 	./a.out > my_output.txt
 
+memcheck: build
+	valgrind -s ./a.out
+
 build:
 	${CC} q.c main.c my_string.c

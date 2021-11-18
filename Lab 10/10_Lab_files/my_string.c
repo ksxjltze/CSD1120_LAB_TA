@@ -62,6 +62,11 @@ char* my_strstr(const char* str, const char* substr)
         int found = 1;
         for (size_t j = 0; j < substr_length; ++j)
         {
+            if ((i + j) > length)
+            {
+                return NULL;
+            }
+
             if (substr[j] != str[i + j])
             {
                 found = 0;
